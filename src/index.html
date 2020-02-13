@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <title>Stereotype Me!</title>
   </head>
   <body>
-    
+    <div class="jumbotron">
+      <h1>Stereotype Me!</h1>
+    </div>
+
+    <div class="container">
+      <form id="nameForm">
+        <label for="name">Enter your name:</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <br>
+        <button class="btn btn-lg btn-primary" type="submit">Judge me!</button>
+      </form>
+    </div>
+
+    <div class="container">
+      <h3>You are most likely:</h3>
+      <p><span id="output"></span></p>
+    </div>
+
+
   </body>
 </html>
